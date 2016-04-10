@@ -1,0 +1,84 @@
+/*!
+ * Start Bootstrap - Full HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+h3 {
+
+	text-align: center;
+}
+
+h4 {
+
+	text-align: center;
+
+}
+
+.poster {
+
+	/* height: 600px; */
+	width: 60%;
+	margin-right: 10px;
+}
+
+.lunar {
+
+	height: 100%;
+	width: 100%;
+	display: inline;
+	margin: 10px 10px 10px 10px;
+}
+
+.dlms {
+
+	/* height: 430px;
+	width: 700px; */
+	width: 60%;
+	margin-right: 10px;
+}
+
+.sensor_effector {
+
+	/* width: 700px;
+	height: 600px; */
+	width: 60%;
+}
+
+.logo-humana {
+
+    width: 100%;
+
+	/*height: 135.75px;
+	width: 450px;*/
+}
+
+.logo-bah {
+
+    width: 58%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	/*height: 119px;*/
+}
+
+.logo-sen {
+
+    width: 100%;
+
+	/*height: 135.75px;
+	width: 450px;*/
+}
+
+.logo-modium {
+
+    width: 100%;
+
+	/*height: 119px;
+	width: 400px;*/
+}
+
+a {
+    text-decoration: none !important;
+    color: #333 !important;
+}

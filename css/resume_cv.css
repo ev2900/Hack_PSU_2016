@@ -1,0 +1,23 @@
+/*!
+ * Start Bootstrap - Full HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+img {
+	height: ;
+	width: 100%;
+}
+
+.square {
+
+	width: 80%;
+	height: 5em;
+	border-radius: 4px;
+	background-color: #ecf0f1;
+}
+
+.square:hover {
+
+	background-color: #95a5a6;
+}

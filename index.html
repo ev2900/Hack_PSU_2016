@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html class="full" lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title> </title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS - Content of Page -->
+    <link href="css/index.css" rel="stylesheet">
+
+    <!-- Custom CSS - Navigation Bar -->
+    <link href="css/navigation_bar.css" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+		html {
+		  background: url(weather2.jpg) no-repeat center center fixed;
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		}
+		.auto-style1 {
+			font-style: normal;
+		}
+		.auto-style2 {
+			font-size: xx-large;
+		}
+		.auto-style3 {
+			font-family: "Helvetica black";
+			color: #FF4500;
+			font-size: 60pt;
+			letter-spacing: 1pt;
+		}
+</style>
+
+
+</head>
+
+<body>
+
+<!-- -->
+<!-- Body of Page -->
+<!-- -->
+
+<!-- Empty column -->
+<div class="col-lg-2 col-xs-0"> </div>
+
+<div class="col-lg-8 col-xs-12" align="center">
+
+    <!-- Computer View -->   
+    <div class="">
+
+    	<br><br><br><br>
+
+    	<h1> <span class="auto-style3"> AccuWeather Changes Lives</span> </h1>
+
+    	<br><br><br><br>
+    	<br><br><br><br>
+
+    	<h3> Please select the upload button below to select a file you wish to anotate. </h3>
+
+    	<br>
+
+    	<form enctype="multipart/form-data" action="http://upload_file.php" method="post" target="_blank" onsubmit="try {
+
+    		return window.confirm(&quot;You are submitting information to an external page.\nAre you sure?&quot;);} catch (e) {return false;}">
+			
+			<h3> Browse for File to Upload: </h3>
+
+			<br><br>
+
+			<input name="file" type="file" size="80"> <br>
+
+			<br>
+
+			<a href="second_page.html"> <button type="button"> Upload File </button> </a>
+
+		</form>
+
+
+    </div>
+
+</div>
+
+<!-- Empty column -->
+<div class="col-lg-2 col-xs-0"> </div>
+
+</body>
+
+</html>

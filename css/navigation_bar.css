@@ -1,0 +1,66 @@
+/*!
+ * Start Bootstrap - Full HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+
+/*
+@media only screen and (min-device-width: 480px) {
+
+	body {
+
+		background-image: url('https://sites.google.com/site/christophermichaelsharkey/_/rsrc/1437312826635/tech-resources/side-loading-bb10-applications/background.jpg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100%;
+
+    	margin-top: 0px;
+    	margin-right: 0px; 
+    	margin-left: 0px;
+    	margin-bottom: 100px;
+	}
+}
+
+@media only screen and (max-device-width: 480px) {
+
+	body {
+
+		margin-top: 0px;
+    	margin-right: 0px; 
+    	margin-left: 0px;
+    	margin-bottom: 100px; 
+	}
+}
+*/
+
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-custom {
+	text-align: center;
+}
+
+.navbar .navbar-nav {
+	padding-top: 1em;
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+	font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: black;
+}
+
+p {
+	font-size: 11.5pt;
+	line-height: 1.5;
+}
